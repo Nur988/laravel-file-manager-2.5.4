@@ -165,12 +165,13 @@ class FileManager
                 $fileNotUploaded = true;
                 continue;
             }
-
+            $fileOriginalName = pathinfo( $file->getClientOriginalName(), PATHINFO_FILENAME);
+            $fileExtensionName=$file->getClientOriginalExtension();
             // overwrite or save file
-            Storage::disk($disk)->putFileAs(
+          Storage::disk($disk)->putFileAs(
                 $path,
                 $file,
-                $file->getClientOriginalName()
+                $fileOriginalName."|CLIENT.".$fileExtensionName
             );
         }
 

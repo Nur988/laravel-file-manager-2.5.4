@@ -1,6 +1,6 @@
 {
-    "name": "alexusmai/laravel-file-manager",
-    "description": "File manager for Laravel",
+    "name": "nur/laravel-file-manager",
+    "description": "File manager for 3dpc-client",
     "keywords": [
         "laravel",
         "file",
@@ -8,12 +8,12 @@
     ],
     "authors": [
         {
-            "name": "Aleksandr Manekin",
-            "email": "alexusmai@gmail.com",
+            "name": "Nur",
+            "email": "proteas988@gmail.com",
             "role": "Developer"
         }
     ],
-    "homepage": "https://github.com/alexusami/laravel-file-manager",
+    "homepage": "https://github.com/Nur988/laravel-file-manager-2.5.4",
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {
@@ -27,13 +27,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Alexusmai\\LaravelFileManager\\": "src"
+            "Nur\\LaravelFileManager\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Alexusmai\\LaravelFileManager\\FileManagerServiceProvider"
+                "Nur\\LaravelFileManager\\FileManagerServiceProvider"
             ]
         }
     }

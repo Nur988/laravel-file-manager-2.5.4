@@ -171,7 +171,7 @@ class FileManager
           Storage::disk($disk)->putFileAs(
                 $path,
                 $file,
-                $fileOriginalName."|CLIENT.".$fileExtensionName
+                $fileOriginalName."|ADMIN.".$fileExtensionName
             );
         }
 

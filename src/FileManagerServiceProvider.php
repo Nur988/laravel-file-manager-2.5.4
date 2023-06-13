@@ -1,10 +1,10 @@
 <?php
 
-namespace Alexusmai\LaravelFileManager;
+namespace threedpc\LaravelFileManager;
 
-use Alexusmai\LaravelFileManager\Middleware\FileManagerACL;
-use Alexusmai\LaravelFileManager\Services\ACLService\ACLRepository;
-use Alexusmai\LaravelFileManager\Services\ConfigService\ConfigRepository;
+use threedpc\LaravelFileManager\Middleware\FileManagerACL;
+use threedpc\LaravelFileManager\Services\ACLService\ACLRepository;
+use threedpc\LaravelFileManager\Services\ConfigService\ConfigRepository;
 use Illuminate\Support\ServiceProvider;
 
 class FileManagerServiceProvider extends ServiceProvider

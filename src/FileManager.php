@@ -2,12 +2,12 @@
 
 namespace Alexusmai\LaravelFileManager;
 
-use Alexusmai\LaravelFileManager\Events\Deleted;
-use Alexusmai\LaravelFileManager\Traits\CheckTrait;
-use Alexusmai\LaravelFileManager\Traits\ContentTrait;
-use Alexusmai\LaravelFileManager\Traits\PathTrait;
-use Alexusmai\LaravelFileManager\Services\TransferService\TransferFactory;
-use Alexusmai\LaravelFileManager\Services\ConfigService\ConfigRepository;
+use threedpc\LaravelFileManager\Events\Deleted;
+use threedpc\LaravelFileManager\Traits\CheckTrait;
+use threedpc\LaravelFileManager\Traits\ContentTrait;
+use threedpc\LaravelFileManager\Traits\PathTrait;
+use threedpc\LaravelFileManager\Services\TransferService\TransferFactory;
+use threedpc\LaravelFileManager\Services\ConfigService\ConfigRepository;
 use Illuminate\Support\Str;
 use Illuminate\Support\Arr;
 use Storage;

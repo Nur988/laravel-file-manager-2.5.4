@@ -1,6 +1,6 @@
 <?php
 
-use Alexusmai\LaravelFileManager\Services\ConfigService\ConfigRepository;
+use threedpc\LaravelFileManager\Services\ConfigService\ConfigRepository;
 
 $config = resolve(ConfigRepository::class);
 
@@ -17,7 +17,7 @@ if ($config->getAcl()) {
 Route::group([
     'middleware' => $middleware,
     'prefix'     => $config->getRoutePrefix(),
-    'namespace'  => 'Alexusmai\LaravelFileManager\Controllers',
+    'namespace'  => 'threedpc\LaravelFileManager\Controllers',
 ], function () {
 
     Route::get('initialize', 'FileManagerController@initialize')

@@ -1,10 +1,10 @@
 <?php
 
-namespace Alexusmai\LaravelFileManager\Middleware;
+namespace threedpc\LaravelFileManager\Middleware;
 
-use Alexusmai\LaravelFileManager\Services\ACLService\ACL;
-use Alexusmai\LaravelFileManager\Services\ConfigService\ConfigRepository;
-use Alexusmai\LaravelFileManager\Traits\PathTrait;
+use threedpc\LaravelFileManager\Services\ACLService\ACL;
+use threedpc\LaravelFileManager\Services\ConfigService\ConfigRepository;
+use threedpc\LaravelFileManager\Traits\PathTrait;
 use Illuminate\Http\Request;
 use Illuminate\Support\Arr;
 use Closure;

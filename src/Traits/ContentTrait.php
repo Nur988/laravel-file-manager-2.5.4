@@ -1,8 +1,8 @@
 <?php
 
-namespace Alexusmai\LaravelFileManager\Traits;
+namespace threedpc\LaravelFileManager\Traits;
 
-use Alexusmai\LaravelFileManager\Services\ACLService\ACL;
+use threedpc\LaravelFileManager\Services\ACLService\ACL;
 use Illuminate\Support\Arr;
 use Storage;
 

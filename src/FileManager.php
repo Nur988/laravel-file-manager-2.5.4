@@ -1,6 +1,6 @@
 <?php
 
-namespace Alexusmai\LaravelFileManager;
+namespace threedpc\LaravelFileManager;
 
 use threedpc\LaravelFileManager\Events\Deleted;
 use threedpc\LaravelFileManager\Traits\CheckTrait;

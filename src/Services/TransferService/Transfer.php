@@ -1,6 +1,6 @@
 <?php
 
-namespace Alexusmai\LaravelFileManager\Services\TransferService;
+namespace threedpc\LaravelFileManager\Services\TransferService;
 
 abstract class Transfer
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Alexusmai\LaravelFileManager\Services\TransferService;
+namespace threedpc\LaravelFileManager\Services\TransferService;
 
-use Alexusmai\LaravelFileManager\Traits\PathTrait;
+use threedpc\LaravelFileManager\Traits\PathTrait;
 use League\Flysystem\MountManager;
 use Storage;
 

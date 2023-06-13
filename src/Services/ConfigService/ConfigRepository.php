@@ -1,11 +1,11 @@
 <?php
 
-namespace Alexusmai\LaravelFileManager\Services\ConfigService;
+namespace threedpc\LaravelFileManager\Services\ConfigService;
 
 /**
  * Interface ConfigRepository
  *
- * @package Alexusmai\LaravelFileManager\Services\ConfigService
+ * @package threedpc\LaravelFileManager\Services\ConfigService
  */
 interface ConfigRepository
 {

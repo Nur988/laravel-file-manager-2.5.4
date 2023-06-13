@@ -1,25 +1,25 @@
 <?php
 
-namespace Alexusmai\LaravelFileManager\Controllers;
+namespace threedpc\LaravelFileManager\Controllers;
 
-use Alexusmai\LaravelFileManager\Events\BeforeInitialization;
-use Alexusmai\LaravelFileManager\Events\Deleting;
-use Alexusmai\LaravelFileManager\Events\DirectoryCreated;
-use Alexusmai\LaravelFileManager\Events\DirectoryCreating;
-use Alexusmai\LaravelFileManager\Events\DiskSelected;
-use Alexusmai\LaravelFileManager\Events\Download;
-use Alexusmai\LaravelFileManager\Events\FileCreated;
-use Alexusmai\LaravelFileManager\Events\FileCreating;
-use Alexusmai\LaravelFileManager\Events\FilesUploaded;
-use Alexusmai\LaravelFileManager\Events\FilesUploading;
-use Alexusmai\LaravelFileManager\Events\FileUpdate;
-use Alexusmai\LaravelFileManager\Events\Paste;
-use Alexusmai\LaravelFileManager\Events\Rename;
-use Alexusmai\LaravelFileManager\Events\Zip as ZipEvent;
-use Alexusmai\LaravelFileManager\Events\Unzip as UnzipEvent;
-use Alexusmai\LaravelFileManager\Requests\RequestValidator;
-use Alexusmai\LaravelFileManager\FileManager;
-use Alexusmai\LaravelFileManager\Services\Zip;
+use threedpc\LaravelFileManager\Events\BeforeInitialization;
+use threedpc\LaravelFileManager\Events\Deleting;
+use threedpc\LaravelFileManager\Events\DirectoryCreated;
+use threedpc\LaravelFileManager\Events\DirectoryCreating;
+use threedpc\LaravelFileManager\Events\DiskSelected;
+use threedpc\LaravelFileManager\Events\Download;
+use threedpc\LaravelFileManager\Events\FileCreated;
+use threedpc\LaravelFileManager\Events\FileCreating;
+use threedpc\LaravelFileManager\Events\FilesUploaded;
+use threedpc\LaravelFileManager\Events\FilesUploading;
+use threedpc\LaravelFileManager\Events\FileUpdate;
+use threedpc\LaravelFileManager\Events\Paste;
+use threedpc\LaravelFileManager\Events\Rename;
+use threedpc\LaravelFileManager\Events\Zip as ZipEvent;
+use threedpc\LaravelFileManager\Events\Unzip as UnzipEvent;
+use threedpc\LaravelFileManager\Requests\RequestValidator;
+use threedpc\LaravelFileManager\FileManager;
+use threedpc\LaravelFileManager\Services\Zip;
 use Illuminate\Routing\Controller;
 use Illuminate\Http\Request;
 

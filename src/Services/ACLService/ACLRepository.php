@@ -1,11 +1,11 @@
 <?php
 
-namespace Alexusmai\LaravelFileManager\Services\ACLService;
+namespace threedpc\LaravelFileManager\Services\ACLService;
 
 /**
  * Interface ACLRepository
  *
- * @package Alexusmai\LaravelFileManager\Services\ACLService
+ * @package threedpc\LaravelFileManager\Services\ACLService
  */
 interface ACLRepository
 {

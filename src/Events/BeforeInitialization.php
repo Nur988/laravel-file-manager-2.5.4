@@ -1,6 +1,6 @@
 <?php
 
-namespace threedpc\LaravelFileManager\Events;
+namespace threedpc-admin\LaravelFileManager\Events;
 
 class BeforeInitialization
 {

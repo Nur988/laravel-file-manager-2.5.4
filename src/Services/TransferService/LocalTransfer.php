@@ -1,8 +1,8 @@
 <?php
 
-namespace threedpc\LaravelFileManager\Services\TransferService;
+namespace threedpc-admin\LaravelFileManager\Services\TransferService;
 
-use threedpc\LaravelFileManager\Traits\PathTrait;
+use threedpc-admin\LaravelFileManager\Traits\PathTrait;
 use Storage;
 
 class LocalTransfer extends Transfer

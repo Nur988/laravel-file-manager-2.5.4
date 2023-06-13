@@ -1,8 +1,8 @@
 <?php
 
-namespace threedpc\LaravelFileManager\Requests;
+namespace threedpc-admin\LaravelFileManager\Requests;
 
-use threedpc\LaravelFileManager\Services\ConfigService\ConfigRepository;
+use threedpc-admin\LaravelFileManager\Services\ConfigService\ConfigRepository;
 use Illuminate\Foundation\Http\FormRequest;
 use Storage;
 

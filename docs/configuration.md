@@ -120,7 +120,7 @@ Create new class - example - TestConfigRepository
 ```php
 namespace App\Http;
 
-use threedpc\LaravelFileManager\Services\ConfigService\ConfigRepository;
+use threedpc-admin\LaravelFileManager\Services\ConfigService\ConfigRepository;
 
 class TestConfigRepository implements ConfigRepository
 {

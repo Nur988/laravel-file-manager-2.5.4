@@ -1,13 +1,13 @@
 <?php
 
-namespace threedpc\LaravelFileManager\Services\ACLService;
+namespace threedpc-admin\LaravelFileManager\Services\ACLService;
 
 /**
  * Class ConfigACLRepository
  *
  * Get rules from file-manager config file - aclRules
  *
- * @package threedpc\LaravelFileManager\Services\ACLService
+ * @package threedpc-admin\LaravelFileManager\Services\ACLService
  */
 class ConfigACLRepository implements ACLRepository
 {

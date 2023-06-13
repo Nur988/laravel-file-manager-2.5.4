@@ -1,13 +1,13 @@
 <?php
 
-namespace threedpc\LaravelFileManager;
+namespace threedpc-admin\LaravelFileManager;
 
-use threedpc\LaravelFileManager\Events\Deleted;
-use threedpc\LaravelFileManager\Traits\CheckTrait;
-use threedpc\LaravelFileManager\Traits\ContentTrait;
-use threedpc\LaravelFileManager\Traits\PathTrait;
-use threedpc\LaravelFileManager\Services\TransferService\TransferFactory;
-use threedpc\LaravelFileManager\Services\ConfigService\ConfigRepository;
+use threedpc-admin\LaravelFileManager\Events\Deleted;
+use threedpc-admin\LaravelFileManager\Traits\CheckTrait;
+use threedpc-admin\LaravelFileManager\Traits\ContentTrait;
+use threedpc-admin\LaravelFileManager\Traits\PathTrait;
+use threedpc-admin\LaravelFileManager\Services\TransferService\TransferFactory;
+use threedpc-admin\LaravelFileManager\Services\ConfigService\ConfigRepository;
 use Illuminate\Support\Str;
 use Illuminate\Support\Arr;
 use Storage;

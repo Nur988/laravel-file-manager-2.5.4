@@ -1,25 +1,25 @@
 <?php
 
-namespace threedpc\LaravelFileManager\Controllers;
+namespace threedpc-admin\LaravelFileManager\Controllers;
 
-use threedpc\LaravelFileManager\Events\BeforeInitialization;
-use threedpc\LaravelFileManager\Events\Deleting;
-use threedpc\LaravelFileManager\Events\DirectoryCreated;
-use threedpc\LaravelFileManager\Events\DirectoryCreating;
-use threedpc\LaravelFileManager\Events\DiskSelected;
-use threedpc\LaravelFileManager\Events\Download;
-use threedpc\LaravelFileManager\Events\FileCreated;
-use threedpc\LaravelFileManager\Events\FileCreating;
-use threedpc\LaravelFileManager\Events\FilesUploaded;
-use threedpc\LaravelFileManager\Events\FilesUploading;
-use threedpc\LaravelFileManager\Events\FileUpdate;
-use threedpc\LaravelFileManager\Events\Paste;
-use threedpc\LaravelFileManager\Events\Rename;
-use threedpc\LaravelFileManager\Events\Zip as ZipEvent;
-use threedpc\LaravelFileManager\Events\Unzip as UnzipEvent;
-use threedpc\LaravelFileManager\Requests\RequestValidator;
-use threedpc\LaravelFileManager\FileManager;
-use threedpc\LaravelFileManager\Services\Zip;
+use threedpc-admin\LaravelFileManager\Events\BeforeInitialization;
+use threedpc-admin\LaravelFileManager\Events\Deleting;
+use threedpc-admin\LaravelFileManager\Events\DirectoryCreated;
+use threedpc-admin\LaravelFileManager\Events\DirectoryCreating;
+use threedpc-admin\LaravelFileManager\Events\DiskSelected;
+use threedpc-admin\LaravelFileManager\Events\Download;
+use threedpc-admin\LaravelFileManager\Events\FileCreated;
+use threedpc-admin\LaravelFileManager\Events\FileCreating;
+use threedpc-admin\LaravelFileManager\Events\FilesUploaded;
+use threedpc-admin\LaravelFileManager\Events\FilesUploading;
+use threedpc-admin\LaravelFileManager\Events\FileUpdate;
+use threedpc-admin\LaravelFileManager\Events\Paste;
+use threedpc-admin\LaravelFileManager\Events\Rename;
+use threedpc-admin\LaravelFileManager\Events\Zip as ZipEvent;
+use threedpc-admin\LaravelFileManager\Events\Unzip as UnzipEvent;
+use threedpc-admin\LaravelFileManager\Requests\RequestValidator;
+use threedpc-admin\LaravelFileManager\FileManager;
+use threedpc-admin\LaravelFileManager\Services\Zip;
 use Illuminate\Routing\Controller;
 use Illuminate\Http\Request;
 

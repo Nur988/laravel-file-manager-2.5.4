@@ -1,7 +1,7 @@
 <?php
 
-use threedpc\LaravelFileManager\Services\ConfigService\DefaultConfigRepository;
-use threedpc\LaravelFileManager\Services\ACLService\ConfigACLRepository;
+use threedpc-admin\LaravelFileManager\Services\ConfigService\DefaultConfigRepository;
+use threedpc-admin\LaravelFileManager\Services\ACLService\ConfigACLRepository;
 
 return [
 

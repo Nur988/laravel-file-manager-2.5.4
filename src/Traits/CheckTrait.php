@@ -1,6 +1,6 @@
 <?php
 
-namespace threedpc\LaravelFileManager\Traits;
+namespace threedpc-admin\LaravelFileManager\Traits;
 
 use Storage;
 

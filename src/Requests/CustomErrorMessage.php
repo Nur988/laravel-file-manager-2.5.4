@@ -1,6 +1,6 @@
 <?php
 
-namespace threedpc\LaravelFileManager\Requests;
+namespace threedpc-admin\LaravelFileManager\Requests;
 
 use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Http\Exceptions\HttpResponseException;

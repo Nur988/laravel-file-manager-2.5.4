@@ -1,6 +1,6 @@
 <?php
 
-use threedpc\LaravelFileManager\Services\ConfigService\ConfigRepository;
+use threedpc-admin\LaravelFileManager\Services\ConfigService\ConfigRepository;
 
 $config = resolve(ConfigRepository::class);
 
@@ -17,7 +17,7 @@ if ($config->getAcl()) {
 Route::group([
     'middleware' => $middleware,
     'prefix'     => $config->getRoutePrefix(),
-    'namespace'  => 'threedpc\LaravelFileManager\Controllers',
+    'namespace'  => 'threedpc-admin\LaravelFileManager\Controllers',
 ], function () {
 
     Route::get('initialize', 'FileManagerController@initialize')

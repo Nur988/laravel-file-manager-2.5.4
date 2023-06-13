@@ -1,11 +1,11 @@
 <?php
 
-namespace threedpc\LaravelFileManager\Services;
+namespace threedpc-admin\LaravelFileManager\Services;
 
-use threedpc\LaravelFileManager\Events\UnzipCreated;
-use threedpc\LaravelFileManager\Events\UnzipFailed;
-use threedpc\LaravelFileManager\Events\ZipCreated;
-use threedpc\LaravelFileManager\Events\ZipFailed;
+use threedpc-admin\LaravelFileManager\Events\UnzipCreated;
+use threedpc-admin\LaravelFileManager\Events\UnzipFailed;
+use threedpc-admin\LaravelFileManager\Events\ZipCreated;
+use threedpc-admin\LaravelFileManager\Events\ZipFailed;
 use Illuminate\Http\Request;
 use RecursiveIteratorIterator;
 use RecursiveDirectoryIterator;

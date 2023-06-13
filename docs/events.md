@@ -2,12 +2,12 @@
 
 ### BeforeInitialization
 
-> threedpc\LaravelFileManager\Events\BeforeInitialization
+> threedpc-admin\LaravelFileManager\Events\BeforeInitialization
 
 Example:
 
 ```php
-\Event::listen('threedpc\LaravelFileManager\Events\BeforeInitialization',
+\Event::listen('threedpc-admin\LaravelFileManager\Events\BeforeInitialization',
     function ($event) {
         
     }
@@ -16,12 +16,12 @@ Example:
 
 ### DiskSelected
 
-> threedpc\LaravelFileManager\Events\DiskSelected
+> threedpc-admin\LaravelFileManager\Events\DiskSelected
 
 Example:
 
 ```php
-\Event::listen('threedpc\LaravelFileManager\Events\DiskSelected',
+\Event::listen('threedpc-admin\LaravelFileManager\Events\DiskSelected',
     function ($event) {
         \Log::info('DiskSelected:', [$event->disk()]);
     }
@@ -30,10 +30,10 @@ Example:
 
 ### FilesUploading
 
-> threedpc\LaravelFileManager\Events\FilesUploading
+> threedpc-admin\LaravelFileManager\Events\FilesUploading
 
 ```php
-\Event::listen('threedpc\LaravelFileManager\Events\FilesUploading',
+\Event::listen('threedpc-admin\LaravelFileManager\Events\FilesUploading',
     function ($event) {
         \Log::info('FilesUploading:', [
             $event->disk(),
@@ -47,10 +47,10 @@ Example:
 
 ### FilesUploaded
 
-> threedpc\LaravelFileManager\Events\FilesUploaded
+> threedpc-admin\LaravelFileManager\Events\FilesUploaded
 
 ```php
-\Event::listen('threedpc\LaravelFileManager\Events\FilesUploaded',
+\Event::listen('threedpc-admin\LaravelFileManager\Events\FilesUploaded',
     function ($event) {
         \Log::info('FilesUploaded:', [
             $event->disk(),
@@ -64,10 +64,10 @@ Example:
 
 ### Deleting
 
-> threedpc\LaravelFileManager\Events\Deleting
+> threedpc-admin\LaravelFileManager\Events\Deleting
 
 ```php
-\Event::listen('threedpc\LaravelFileManager\Events\Deleting',
+\Event::listen('threedpc-admin\LaravelFileManager\Events\Deleting',
     function ($event) {
         \Log::info('Deleting:', [
             $event->disk(),
@@ -79,10 +79,10 @@ Example:
 
 ### Deleted
 
-> threedpc\LaravelFileManager\Events\Deleted
+> threedpc-admin\LaravelFileManager\Events\Deleted
 
 ```php
-\Event::listen('threedpc\LaravelFileManager\Events\Deleted',
+\Event::listen('threedpc-admin\LaravelFileManager\Events\Deleted',
     function ($event) {
         \Log::info('Deleted:', [
             $event->disk(),
@@ -94,10 +94,10 @@ Example:
 
 ### Paste
 
-> threedpc\LaravelFileManager\Events\Paste
+> threedpc-admin\LaravelFileManager\Events\Paste
 
 ```php
-\Event::listen('threedpc\LaravelFileManager\Events\Paste',
+\Event::listen('threedpc-admin\LaravelFileManager\Events\Paste',
     function ($event) {
         \Log::info('Paste:', [
             $event->disk(),
@@ -110,10 +110,10 @@ Example:
 
 ### Rename
 
-> threedpc\LaravelFileManager\Events\Rename
+> threedpc-admin\LaravelFileManager\Events\Rename
 
 ```php
-\Event::listen('threedpc\LaravelFileManager\Events\Rename',
+\Event::listen('threedpc-admin\LaravelFileManager\Events\Rename',
     function ($event) {
         \Log::info('Rename:', [
             $event->disk(),
@@ -127,10 +127,10 @@ Example:
 
 ### Download
 
-> threedpc\LaravelFileManager\Events\Download
+> threedpc-admin\LaravelFileManager\Events\Download
 
 ```php
-\Event::listen('threedpc\LaravelFileManager\Events\Download',
+\Event::listen('threedpc-admin\LaravelFileManager\Events\Download',
     function ($event) {
         \Log::info('Download:', [
             $event->disk(),
@@ -144,10 +144,10 @@ Example:
 
 ### DirectoryCreating
 
-> threedpc\LaravelFileManager\Events\DirectoryCreating
+> threedpc-admin\LaravelFileManager\Events\DirectoryCreating
 
 ```php
-\Event::listen('threedpc\LaravelFileManager\Events\DirectoryCreating',
+\Event::listen('threedpc-admin\LaravelFileManager\Events\DirectoryCreating',
     function ($event) {
         \Log::info('DirectoryCreating:', [
             $event->disk(),
@@ -160,10 +160,10 @@ Example:
 
 ### DirectoryCreated
 
-> threedpc\LaravelFileManager\Events\DirectoryCreated
+> threedpc-admin\LaravelFileManager\Events\DirectoryCreated
 
 ```php
-\Event::listen('threedpc\LaravelFileManager\Events\DirectoryCreated',
+\Event::listen('threedpc-admin\LaravelFileManager\Events\DirectoryCreated',
     function ($event) {
         \Log::info('DirectoryCreated:', [
             $event->disk(),
@@ -176,10 +176,10 @@ Example:
 
 ### FileCreating
 
-> threedpc\LaravelFileManager\Events\FileCreating
+> threedpc-admin\LaravelFileManager\Events\FileCreating
 
 ```php
-\Event::listen('threedpc\LaravelFileManager\Events\FileCreating',
+\Event::listen('threedpc-admin\LaravelFileManager\Events\FileCreating',
     function ($event) {
         \Log::info('FileCreating:', [
             $event->disk(),
@@ -192,10 +192,10 @@ Example:
 
 ### FileCreated
 
-> threedpc\LaravelFileManager\Events\FileCreated
+> threedpc-admin\LaravelFileManager\Events\FileCreated
 
 ```php
-\Event::listen('threedpc\LaravelFileManager\Events\FileCreated',
+\Event::listen('threedpc-admin\LaravelFileManager\Events\FileCreated',
     function ($event) {
         \Log::info('FileCreated:', [
             $event->disk(),
@@ -208,10 +208,10 @@ Example:
 
 ### FileUpdate
 
-> threedpc\LaravelFileManager\Events\FileUpdate
+> threedpc-admin\LaravelFileManager\Events\FileUpdate
 
 ```php
-\Event::listen('threedpc\LaravelFileManager\Events\FileUpdate',
+\Event::listen('threedpc-admin\LaravelFileManager\Events\FileUpdate',
     function ($event) {
         \Log::info('FileUpdate:', [
             $event->disk(),
@@ -223,10 +223,10 @@ Example:
 
 ### Zip
 
-> threedpc\LaravelFileManager\Events\Zip
+> threedpc-admin\LaravelFileManager\Events\Zip
 
 ```php
-\Event::listen('threedpc\LaravelFileManager\Events\Zip',
+\Event::listen('threedpc-admin\LaravelFileManager\Events\Zip',
     function ($event) {
         \Log::info('Zip:', [
             $event->disk(),
@@ -240,10 +240,10 @@ Example:
 
 ### ZipCreated
 
-> threedpc\LaravelFileManager\Events\ZipCreated
+> threedpc-admin\LaravelFileManager\Events\ZipCreated
 
 ```php
-\Event::listen('threedpc\LaravelFileManager\Events\ZipCreated',
+\Event::listen('threedpc-admin\LaravelFileManager\Events\ZipCreated',
     function ($event) {
         \Log::info('ZipCreated:', [
             $event->disk(),
@@ -257,10 +257,10 @@ Example:
 
 ### ZipFailed
 
-> threedpc\LaravelFileManager\Events\ZipCreated
+> threedpc-admin\LaravelFileManager\Events\ZipCreated
 
 ```php
-\Event::listen('threedpc\LaravelFileManager\Events\ZipFailed',
+\Event::listen('threedpc-admin\LaravelFileManager\Events\ZipFailed',
     function ($event) {
         \Log::info('ZipFailed:', [
             $event->disk(),
@@ -274,10 +274,10 @@ Example:
 
 ### Unzip
 
-> threedpc\LaravelFileManager\Events\Unzip
+> threedpc-admin\LaravelFileManager\Events\Unzip
 
 ```php
-\Event::listen('threedpc\LaravelFileManager\Events\Unzip',
+\Event::listen('threedpc-admin\LaravelFileManager\Events\Unzip',
     function ($event) {
         \Log::info('Unzip:', [
             $event->disk(),
@@ -290,10 +290,10 @@ Example:
 
 ### UnzipCreated
 
-> threedpc\LaravelFileManager\Events\UnzipCreated
+> threedpc-admin\LaravelFileManager\Events\UnzipCreated
 
 ```php
-\Event::listen('threedpc\LaravelFileManager\Events\UnzipCreated',
+\Event::listen('threedpc-admin\LaravelFileManager\Events\UnzipCreated',
     function ($event) {
         \Log::info('UnzipCreated:', [
             $event->disk(),
@@ -306,10 +306,10 @@ Example:
 
 ### UnzipFailed
 
-> threedpc\LaravelFileManager\Events\UnzipFailed
+> threedpc-admin\LaravelFileManager\Events\UnzipFailed
 
 ```php
-\Event::listen('threedpc\LaravelFileManager\Events\UnzipFailed',
+\Event::listen('threedpc-admin\LaravelFileManager\Events\UnzipFailed',
     function ($event) {
         \Log::info('UnzipFailed:', [
             $event->disk(),

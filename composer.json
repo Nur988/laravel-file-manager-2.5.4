@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "dpc\\LaravelFileManager\\": "src"
+            "threedpc\\LaravelFileManager\\": "src"
         }
     },
     "extra": {

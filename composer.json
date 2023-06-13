@@ -1,5 +1,5 @@
 {
-    "name": "dpc/laravel-file-manager",
+    "name": "threedpc/laravel-file-manager",
     "description": "File manager for 3dpc-client",
     "keywords": [
         "laravel",
@@ -8,7 +8,7 @@
     ],
     "authors": [
         {
-            "name": "dpc",
+            "name": "threedpc",
             "email": "proteas988@gmail.com",
             "role": "Developer"
         }
@@ -33,7 +33,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "dpc\\LaravelFileManager\\FileManagerServiceProvider"
+                "threedpc\\LaravelFileManager\\FileManagerServiceProvider"
             ]
         }
     }

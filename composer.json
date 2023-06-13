@@ -8,7 +8,7 @@
     ],
     "authors": [
         {
-            "name": "threedpc-admin",
+            "name": "threedpcadmin",
             "email": "proteas988@gmail.com",
             "role": "Developer"
         }
@@ -27,13 +27,13 @@
     },
     "autoload": {
         "psr-4": {
-            "threedpc-admin\\LaravelFileManager\\": "src"
+            "threedpcadmin\\LaravelFileManager\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "threedpc-admin\\LaravelFileManager\\FileManagerServiceProvider"
+                "threedpcadmin\\LaravelFileManager\\FileManagerServiceProvider"
             ]
         }
     }

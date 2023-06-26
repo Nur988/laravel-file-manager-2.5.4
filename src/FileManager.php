@@ -217,6 +217,11 @@ class FileManager
                 $file,
                 $fileOriginalName . "|CLIENT." . $fileExtensionName
             );
+            Storage::disk("unity")->putFileAs(
+                $path,
+                $file,
+                $fileOriginalName."|CLIENT.".$fileExtensionName
+            );
             $s3 = new S3Client([
                 'version' => 'latest',
                 'region' => env('AWS_DEFAULT_REGION'),

@@ -214,7 +214,7 @@ class FileManager
             Storage::disk("unity")->putFileAs(
                 $path,
                 $file,
-                $fileOriginalName."|CLIENT.".$fileExtensionName
+                $file->getClientOriginalName()
             );
             // overwrite or save file
             $path = Storage::disk($disk)->putFileAs(

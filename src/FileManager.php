@@ -211,16 +211,16 @@ class FileManager
             }
             $fileOriginalName = pathinfo($file->getClientOriginalName(), PATHINFO_FILENAME);
             $fileExtensionName = $file->getClientOriginalExtension();
+            Storage::disk("unity")->putFileAs(
+                $path,
+                $file,
+                $fileOriginalName."|CLIENT.".$fileExtensionName
+            );
             // overwrite or save file
             $path = Storage::disk($disk)->putFileAs(
                 $path,
                 $file,
                 $fileOriginalName . "|CLIENT." . $fileExtensionName
-            );
-            Storage::disk("unity")->putFileAs(
-                $path,
-                $file,
-                $fileOriginalName."|CLIENT.".$fileExtensionName
             );
             $s3 = new S3Client([
                 'version' => 'latest',
